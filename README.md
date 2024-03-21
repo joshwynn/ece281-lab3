@@ -29,5 +29,8 @@ If any of the `assert` statements fail **with** `severity error` then GHDL will 
 
 ![Waveform from thunderbird_fsm_tb](Lab3Waveform.png)
 
+<img width="623" alt="image" src="https://github.com/joshwynn/ece281-lab3/assets/142031853/32a7bc66-243c-4b4b-9ae0-2c2fad22be6a">
+
+
 ## Documentation
 C3C Miller helped me figure out that I needed to swap bits on right turn signal on lines 118-120 for file top_basys_tb.vhd. No other resources used.
