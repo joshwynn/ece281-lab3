@@ -26,3 +26,8 @@ env:
 
 If successful then GHDL will quietly exit with a `0` code.
 If any of the `assert` statements fail **with** `severity error` then GHDL will cease the simulation and exit with non-zero code; this will also cause the workflow to fail.
+
+![description of my waveform](Lab3Waveform.png)
+
+## Documentation
+C3C Miller helped me figure out that I needed to swap bits on right turn signal on lines 118-120 for file top_basys_tb.vhd. No other resources used.
